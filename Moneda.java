@@ -12,7 +12,7 @@ public abstract class Moneda {   	//creo clase abstracta
 	}
 	
 	
-	public abstract double convertirMoneda(); //creo metodo abstracto
+	public abstract double convertirMonedaa(); //creo metodo abstracto
 											 //solo sera implementado por sus hijas
 		
 
