@@ -6,9 +6,14 @@ public abstract class Moneda {   	//creo clase abstracta
 		
 	}
 	
-	protected void getCantidadConvertir(double cantidadConvertir) { //metodo get
+	protected void setCantidadConvertir(double cantidadConvertir) {
+		this.cantidadConvertir=cantidadConvertir;
+	}
+	
+	protected double getCantidadConvertir() { //metodo get
 		//asigna la moneda ingresada como atributo
-		this.cantidadConvertir=cantidadConvertir;	
+			return this.cantidadConvertir;
+		
 	}
 	
 	

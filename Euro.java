@@ -1,17 +1,21 @@
 
 public class Euro extends Moneda {
+	private static double valorEuro = 144;
+	
 	public Euro() {
-		// TODO Auto-generated constructor stub
+		
 	}
+	
 	@Override
-	protected void getCantidadConvertir(double cantidadConvertir) {
-		// TODO Auto-generated method stub
-		super.getCantidadConvertir(cantidadConvertir);
+	protected double getCantidadConvertir() {
+		
+		return super.getCantidadConvertir();
 	}
+	
 	@Override
 	public double convertirMonedaa() {
-		// TODO Auto-generated method stub
-		return 0;
+		double convertido= (cantidadConvertir*(1))/valorEuro;
+		return convertido;
 	}
 	
 	

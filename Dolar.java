@@ -6,11 +6,11 @@ public class Dolar extends Moneda {
 	public Dolar() {
 		// TODO Auto-generated constructor stub
 	}
+	
 	@Override
-	protected void getCantidadConvertir(double cantidadConvertir) {
+	protected double getCantidadConvertir() {
 		// TODO Auto-generated method stub
-		super.getCantidadConvertir(cantidadConvertir);
-		
+		return super.getCantidadConvertir();
 	}
 	
 	

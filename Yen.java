@@ -7,12 +7,12 @@ public class Yen extends Moneda {
 		
 	}
 	
-	
 	@Override
-	protected void getCantidadConvertir(double cantidadConvertir) {
-		
-		super.getCantidadConvertir(cantidadConvertir);
+	protected double getCantidadConvertir() {
+		// TODO Auto-generated method stub
+		return super.getCantidadConvertir();
 	}
+	
 	
 	
 	@Override
