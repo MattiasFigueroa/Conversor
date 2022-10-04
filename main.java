@@ -8,5 +8,11 @@ public class main {
 			
 			JOptionPane.showMessageDialog(null, "el numero ingresado es: "+plata);
 	}
-
+	
+	//falta validacion del input (que solo admita numeros)
+		
+	
+	
+	
+	
 }
