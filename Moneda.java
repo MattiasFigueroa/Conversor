@@ -2,11 +2,11 @@
 public abstract class Moneda {   	//creo clase abstracta
 	protected double cantidadConvertir; //cantidad ingresada por el usuario
 	
-	protected Moneda(){ //creo constructor por defecto
+	/*protected Moneda(){ //creo constructor por defecto
 		
-	}
+	}*/
 	
-	protected void setCantidadConvertir(double cantidadConvertir) {
+	protected  void setCantidadConvertir(double cantidadConvertir) {
 		this.cantidadConvertir=cantidadConvertir;
 	}
 	
@@ -17,9 +17,11 @@ public abstract class Moneda {   	//creo clase abstracta
 	}
 	
 	
-	public abstract double convertirMonedaa(); //creo metodo abstracto
-											 //solo sera implementado por sus hijas
-		
+	public abstract double convertirPesosAOtraMoneda(); //creo metodo abstracto
+										//solo sera implementado por sus hijas
+	
+	public abstract double convertirOtraMonedaAPesos(); //creo metodo abstracto
+	 									//solo sera implementado por sus hijas
 
 	
 

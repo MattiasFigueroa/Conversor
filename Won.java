@@ -16,8 +16,16 @@ public class Won extends Moneda {
 	
 	
 	@Override
-	public double convertirMonedaa() {
-		double convertido= (cantidadConvertir*(valorWon))/1;
+	public double convertirPesosAOtraMoneda() {
+		double convertido= (getCantidadConvertir()*(1))/valorWon;
+		return convertido;
+		
+	}
+	@Override
+	public double convertirOtraMonedaAPesos() {
+		
+		double convertido= (getCantidadConvertir())*(valorWon)/(1);
+		
 		return convertido;
 	}
 }

@@ -16,10 +16,16 @@ public class Libra extends Moneda{
 	
 	
 	@Override
-	public double convertirMonedaa() {
-		double convertido= (cantidadConvertir*(1))/valorLibra;
+	public double convertirPesosAOtraMoneda() {
+		double convertido= (getCantidadConvertir()*(1))/valorLibra;
 		return convertido;
-
-
+		
+	}
+	@Override
+	public double convertirOtraMonedaAPesos() {
+		
+		double convertido2= (getCantidadConvertir())*(valorLibra)/(1);
+		
+		return convertido2;
 	}
 }

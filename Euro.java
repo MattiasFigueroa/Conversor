@@ -13,8 +13,16 @@ public class Euro extends Moneda {
 	}
 	
 	@Override
-	public double convertirMonedaa() {
-		double convertido= (cantidadConvertir*(1))/valorEuro;
+	public double convertirPesosAOtraMoneda() {
+		double convertido= (getCantidadConvertir()*(1))/valorEuro;
+		return convertido;
+		
+	}
+	@Override
+	public double convertirOtraMonedaAPesos() {
+		
+		double convertido= (getCantidadConvertir())*(valorEuro)/(1);
+		
 		return convertido;
 	}
 	

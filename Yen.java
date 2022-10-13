@@ -16,9 +16,16 @@ public class Yen extends Moneda {
 	
 	
 	@Override
-	public double convertirMonedaa() {
+	public double convertirPesosAOtraMoneda() {
+		double convertido= (getCantidadConvertir()*(1))/valorYen;
+		return convertido;
 		
-		double convertido= (cantidadConvertir*(1))/valorYen;
+	}
+	@Override
+	public double convertirOtraMonedaAPesos() {
+		
+		double convertido= (getCantidadConvertir())*(valorYen)/(1);
+		
 		return convertido;
 	}
 }

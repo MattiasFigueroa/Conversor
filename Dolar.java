@@ -17,8 +17,17 @@ public class Dolar extends Moneda {
 	
 	
 	@Override
-	public double convertirMonedaa() {
-		double convertido= (cantidadConvertir*(1))/valorDolar;
+	public double convertirPesosAOtraMoneda() {
+		
+		double convertido= (getCantidadConvertir())*(1)/(valorDolar);
+		
+		return convertido;
+	}
+	@Override
+	public double convertirOtraMonedaAPesos() {
+		
+		double convertido= (getCantidadConvertir())*(valorDolar)/(1);
+		
 		return convertido;
 	}
 }
