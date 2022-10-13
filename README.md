@@ -8,3 +8,8 @@
 <p align="center">
    <img src="https://img.shields.io/badge/Estado-Finalizado-brightgreen?style=for-the-badge&logo=appveyor">
  </p>
+ ![GitHub Org's stars](https://img.shields.io/github/stars/camilafernanda?style=social)
+ <h4 align="center">
+:construction: Proyecto Terminado :construction:
+</h4>
+ 
